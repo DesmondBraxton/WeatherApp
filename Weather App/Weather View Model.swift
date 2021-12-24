@@ -29,7 +29,7 @@ public class WeatherViewModel: ObservableObject {
         self.WeatherService = WeatherService
     }
     
-    public func refresh () {
+    public func refresh(){
         WeatherService.loadWeatherData { weather in
             DispatchQueue.main.async {
                 self.cityName = weather.city

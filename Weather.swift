@@ -13,7 +13,7 @@ public struct Weather{
     let description: String
     let iconName: String
     
-    init(response: APIResponse){
+    init(response: WeatherService.APIResponse){
         city = response.name
         temperature = "\(Int(response.main.temp))"
         description = response.weather.first?.description ?? ""
