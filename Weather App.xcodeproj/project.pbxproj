@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200F88E2785F06500E6F3B8 /* location services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200F88D2785F06500E6F3B8 /* location services.swift */; };
 		520C8ED9275FE01800A065E6 /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C8ED8275FE01800A065E6 /* WeatherServices.swift */; };
 		520C8EDB276260D600A065E6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C8EDA276260D600A065E6 /* Weather.swift */; };
 		524DE23B275E3D5C00D4A065 /* Weather_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DE23A275E3D5C00D4A065 /* Weather_AppApp.swift */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5200F88D2785F06500E6F3B8 /* location services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "location services.swift"; sourceTree = "<group>"; };
+		5200F88F2785F66E00E6F3B8 /* Weather-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		520C8ED8275FE01800A065E6 /* WeatherServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServices.swift; sourceTree = "<group>"; };
 		520C8EDA276260D600A065E6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		524DE237275E3D5C00D4A065 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +46,7 @@
 		524DE22E275E3D5C00D4A065 = {
 			isa = PBXGroup;
 			children = (
+				5200F88D2785F06500E6F3B8 /* location services.swift */,
 				520C8EDA276260D600A065E6 /* Weather.swift */,
 				52F129012770D42000C7407A /* File.swift */,
 				524DE239275E3D5C00D4A065 /* Weather App */,
@@ -61,6 +65,7 @@
 		524DE239275E3D5C00D4A065 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				5200F88F2785F66E00E6F3B8 /* Weather-App-Info.plist */,
 				524DE23A275E3D5C00D4A065 /* Weather_AppApp.swift */,
 				524DE23C275E3D5C00D4A065 /* ContentView.swift */,
 				520C8ED8275FE01800A065E6 /* WeatherServices.swift */,
@@ -153,6 +158,7 @@
 				529941A52773583B0025B5A6 /* Weather View Model.swift in Sources */,
 				520C8ED9275FE01800A065E6 /* WeatherServices.swift in Sources */,
 				524DE23D275E3D5C00D4A065 /* ContentView.swift in Sources */,
+				5200F88E2785F06500E6F3B8 /* location services.swift in Sources */,
 				520C8EDB276260D600A065E6 /* Weather.swift in Sources */,
 				524DE23B275E3D5C00D4A065 /* Weather_AppApp.swift in Sources */,
 			);
@@ -292,8 +298,11 @@
 				DEVELOPMENT_TEAM = R55B8HAUG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location to provide weather data";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,8 +332,11 @@
 				DEVELOPMENT_TEAM = R55B8HAUG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location to provide weather data";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location to provide weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
