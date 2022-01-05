@@ -10,7 +10,7 @@ import Foundation
 
 public final class WeatherService: NSObject{
     private let locationManager = CLLocationManager()
-    private let API_KEY = ""
+    private let API_KEY =
     private var completionHandler: ((Weather) -> Void)?
     
     public override init() {
